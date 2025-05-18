@@ -1,7 +1,7 @@
 import jsonfile from "jsonfile";
 import moment from "moment";
-import simpleGit from "simple-git";
 import random from "random";
+import simpleGit from "simple-git";
 
 const path = "./data.json";
 
@@ -37,4 +37,4 @@ const makeCommits = (n) => {
   });
 };
 
-makeCommits(100);
+makeCommits(10);
